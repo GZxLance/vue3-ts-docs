@@ -28,6 +28,7 @@ export default defineConfig({
                 { text: "介绍", link:"/guide/"}, 
                 { text: "安装", link:"/guide/installation" },
                 { text: "基本概念", link:"/guide/concepts" },
+                { text: "学习笔记", link: "/notes/" },
                 ],
             },
         ],
