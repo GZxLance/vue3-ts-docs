@@ -13,6 +13,7 @@ export default defineConfig({
             { text: "组件", link: "/components/" },
             { text: "API 参考", link: "/api/" },
             { text: "常见问题", link: "/faq/" },
+            { text: "学习笔记", link: "/notes/" },
         ],
 
     socialLinks: [
@@ -40,6 +41,22 @@ export default defineConfig({
                 ],
             },
         ],
+        "/notes/":[
+            {
+                text: "学习笔记",
+                items: [
+                    {text: "介绍", link:"/notes/"},
+                    {text: "使用VitePress构建自己的站点", link:"/notes/使用VitePress构建自己的站点"},
+                    {text: "1.在VSCode中编写TypeScript代码", link:"/notes/1.在VSCode中编写TypeScript代码"},
+                    {text: "2.前端发展的几个时代", link:"/notes/2.前端发展的几个时代"},
+                    {text: "3.掌握前端“三驾马车”", link:"/notes/3.掌握前端“三驾马车”"},
+                    {text: "4.npm、pnpm和yarn", link:"/notes/4.npm、pnpm和yarn"},
+
+
+
+                ]
+            }
+        ]
     },
     footer: {
         message: "用心学习 Vue3 和 TypeScript！",
